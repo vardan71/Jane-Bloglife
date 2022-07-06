@@ -57,3 +57,8 @@
       </scroll-container>
 
       background-image: url(my-photos.jpg/jane.jpg);
+
+
+      border-color: rgb(95, 94, 92);   
+      border-width: 0.1cm;
+      border-style: solid;
