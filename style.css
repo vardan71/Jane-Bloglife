@@ -57,7 +57,7 @@
     color: white;
     width: 4cm;
     position: absolute;
-    top: 10%;
+    top: 6%;
     font-size: 0.7cm;
 }
 .jn2{
@@ -101,19 +101,19 @@
     margin-left: 2%;
 }
 .like{
-        color: rgba(207, 38, 38, 0.322);
+        color: rgba(156, 45, 45, 0.322);
+        height: 1cm;
         width: 3cm;
         position: relative;
-        padding-left: 0.2cm;
+        margin-right: 3cm;
+
         
         
-        
-        
-        font-size: 1cm;
+        font-size: 0.9cm;
 
         box-shadow: inset 0 0 0 0 #54b3d6;
-        color: #54b3d6;
-        margin: 0 -.25rem;
+        color: #545dd6;
+        margin-right: 18cm ;
         padding: 0 .25rem;
         transition: color .3s ease-in-out, box-shadow .3s ease-in-out;
       
@@ -200,17 +200,65 @@
     background-color: rgb(201, 210, 218);
     position: relative;
     height: 20cm;
-    width: 65%;
+    width: 22cm;
     text-align: center;
+
+
 }
 .inspi{
-    width: 7cm;
+    width: 6cm;
     height: 4cm;
     margin: 0.1cm;
-    display: inline-block;
+    position: relative;
     margin-left: 0.2cm;
     
 }
 .ad{
-    margin: 4.4cm;
+    margin: 4cm;
+    position: relative;
 }
+.hat{
+    height: 14cm;
+}
+.text3{
+    
+    width: 21.3cm;
+}
+.ls{
+    background-color: #505a5e;
+    height: 4cm;
+}
+#myBtn {
+    position: fixed;
+    bottom: 10px;
+    float: left;
+    right: 95.5%;
+    
+    max-width: 50px;
+    width: 10%;
+    font-size: 20px;
+    border-color: rgba(157, 255, 0, 0.2);
+    background-color: rgb(25, 0, 253);
+    padding: .22px;
+    border-radius: 4px;
+
+
+       
+       
+        box-shadow: inset 0 0 0 0 #be0000;
+        color: #545dd6;
+       transition: color .3s ease-in-out, box-shadow .3s ease-in-out;
+  
+    
+}
+
+
+
+/*On Hover Color Change*/
+#myBtn:hover {
+    box-shadow: inset 120px 0 0 0 #d65454;
+    color: white;
+}
+
+
+
