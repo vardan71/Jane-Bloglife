@@ -62,3 +62,108 @@
       border-color: rgb(95, 94, 92);   
       border-width: 0.1cm;
       border-style: solid;
+
+
+
+
+      #myBtn {
+        position: fixed;
+        bottom: 10px;
+        float: left;
+        right: 95.5%;
+        
+        max-width: 50px;
+        width: 10%;
+        font-size: 20px;
+        border-color: rgba(157, 255, 0, 0.2);
+        background-color: rgb(104, 67, 67);
+        padding: .22px;
+        border-radius: 4px;
+    
+    
+          
+         
+    }
+    
+    
+    
+    /*On Hover Color Change*/
+    #myBtn:hover {
+        background-color: #7dbbf1;
+    }
+
+
+
+    .nav1{
+      text-align: left;
+      background-color: black;
+      height: 50px;
+      position: relative;
+  }
+
+
+
+  color: rgba(156, 45, 45, 0.322);
+        position: relative;
+        
+
+        box-shadow: inset 0 0 0 0 #54b3d6;
+        color: #545dd6;
+        transition: color .3s ease-in-out, box-shadow .3s ease-in-out;
+      
+     
+}
+ .nav1:hover {
+        box-shadow: inset 80px 0 0 0 #e6bb00;
+        color: white;
+      }
+
+      .imageBox {
+        position: relative;
+        float: left;
+      }
+      
+      .imageBox .hoverImg {
+        position: absolute;
+        left: 0;
+        top: 0;
+        display: none;
+      }
+      
+      .imageBox:hover .hoverImg {
+        display: block;
+      }
+
+
+      <div class="imageBox">
+                <div class="imageInn">
+                  <img src="my-photos.jpg/fbn.png" alt="Default Image" class="li1">
+                </div>
+                <div class="hoverImg">
+                  <img src="my-photos.jpg/ii.jpg" alt="Profile Image" class="li1">
+                </div>
+              </div>
+
+
+
+              <div class="imageBox">
+
+              <div class="imageInn">
+                <img src="my-photos.jpg/sn3.png" alt="Profile Image">
+              </div>
+          
+              <div class="hoverImg center">
+              <img src="my-photos.jpg/fbn.png" alt="default image">
+              </div>
+  
+          </div>
+
+
+
+
+          <img src="my-photos.jpg/ii.jpg" alt="">
+          <img src="my-photos.jpg/sn3.png" alt="" class="li1"><link rel="stylesheet" href="">
+          <img src="my-photos.jpg/dis.jpg" alt="" class="li1"><link rel="stylesheet" href="">
+          <img src="my-photos.jpg/twt2.png" alt="" class="li1"><link rel="stylesheet" href="">
+          <img src="my-photos.jpg/lnk2.jpg" alt="" class="li1"><link rel="stylesheet" href="">
+          <img src="my-photos.jpg/src2.jpg" alt="" class="li1"><link rel="stylesheet" href="">

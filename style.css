@@ -1,6 +1,7 @@
 *{
     margin: 0;
     padding: 0;
+    
 }
 .header{
     min-height: 20cm;
@@ -9,35 +10,86 @@
     background-size: cover;  
     position: relative;
     margin-left: 3cm;
-    justify-content: center;
+    background-color: #505a5e;
 }   
 .jan{
     width: 100%;
     height: auto;
 }
-.nav1{
-    flex: 1;
-    text-align: left;
-    background-color: black;
-    height: 42px;
-    position: relative;
-}
-.nav1 ul li{
-    list-style: none;
-    display: inline-block;
+
+
+.nav1 {
+    
+    display: flex;
+    justify-content: space-between;
     padding: 2px 2px;
+    height: 0cm;
+    margin: 0cm;
+    background-color: #000000;
+    width: 98%;
+    height: 1cm;
+    
+       
+  }
+     
+  .nav2 {
+   
     height: 2cm;
-}
+    margin-right: 2cm;
+    background-color: #000000;
+    width: 40cm;
+    height: 1.3cm;
+
+ 
+       
+  }
+
 
 .li1{
    width: 25px;
    height: 25px;  
+   margin: 0.2cm;
+
+      color: rgba(156, 45, 45, 0.322);
+   position: relative;
+  float: left;
+
+
 }
-.lis{
-    width: 35px;
-    height: 35px;
+
+
+.hor{
+    width: 32px;
+    height: 32px;
     position: relative;
-    left: 34cm;
+}
+
+
+.imageBox {
+    position: relative;
+    float: left;
+    display: flex;
+    justify-content: space-between;
+    
+  }
+  
+  .imageBox .hoverImg {
+    position: absolute;
+    display: none;
+    
+  }
+  
+  .imageBox:hover .hoverImg {
+    display: block;
+  }
+
+
+.li2{
+    width: 30px;
+    height: 30px;
+    position: absolute;
+    margin-left: 32cm;
+
 }
 .title1{
     text-align: center;
@@ -57,7 +109,7 @@
     color: white;
     width: 4cm;
     position: absolute;
-    top: 6%;
+    top: 5%;
     font-size: 0.7cm;
 }
 .jn2{
@@ -203,8 +255,18 @@
     width: 22cm;
     text-align: center;
 
+}
+
+.theading1{
+    background-color: rgb(201, 210, 218);
+    position: relative;
+    height: 20cm;
+    width: 21cm;
+    text-align: center;
 
 }
+
+
 .inspi{
     width: 6cm;
     height: 4cm;
@@ -218,11 +280,12 @@
     position: relative;
 }
 .hat{
-    height: 14cm;
+    height: 12cm;
+    
 }
 .text3{
-    
-    width: 21.3cm;
+    text-align: start;
+    width: 20cm;
 }
 .ls{
     background-color: #505a5e;
